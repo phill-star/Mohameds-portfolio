@@ -1,0 +1,87 @@
+
+  body {
+    background: radial-gradient(
+      ellipse at center,
+      #fffeea 0%,
+      #fffeea 25%,
+      #6fa2a4 100%
+    );
+    font-family: Arial, sans-serif;
+	margin: 0;
+  }
+
+  header {
+    font-weight: 100;
+    font-style: italic;
+	color: rgb(7, 7, 7);
+	padding: 20px;
+  }
+  
+  nav ul {
+    text-align:right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+
+  li {
+    list-style-type:none;
+    text-align:center;
+
+  }
+  nav a {
+	color: rgb(20, 19, 19);
+	text-decoration:underline;
+    font-style: italic;
+
+  }
+  
+  section {
+	padding: 50px;
+  }
+
+  h1, h2, h3, h4 {
+	text-align: center;
+  }
+  
+  h1 {
+    text-shadow: 1px 1px 0 rgb(35, 182, 182), 
+       2px 2px 0 rgb(129, 189, 201);
+ } 
+
+   h5 {
+    margin: 3px;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  p {
+    text-align: center;
+    
+  }
+
+  img {
+    border-radius: 10px;
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 20%;
+  }
+
+  
+  form label, form textarea {
+    font-style: italic;
+    font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  footer {       
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+	color:black;
+} 
