@@ -3,57 +3,62 @@
   <head>
     <title>Moahmed Hussein portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-  
-</head>
+
+  </head>
+
   <body>
     <header>
-      <h1> Mohamed's Portfolio</h1>
-      <nav>
+      <nav class="mainMenu">
         <ul>
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">My Projects</a></li>
           <li><a href="#contact">Contact Me</a></li>
+          <li><a href="resume" download><reset>"Download Resume"</reset>
+          </a>
         </ul>
       </nav>
+      <p> Hi I'm Mohamed</p>
+      <h1> <img src="./assets/images/IMG_1215.jpg" id="image" alt="My Photo"></h1>
     </header>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="./assets/images/IMG_1215.jpg" alt="My Photo">
-      <p>Hi, my name is Mohamed hussein and I am currenlty in the process of becoming web developer. <br>
-        I look forward to developing my skill, new chellanges and learning form others.
-      </p>
+    <section class="about">
+      <div>
+         <p>I am currenlty in the process of becoming web developer. <br>
+          I look forward to developing my skill, new chellanges and learning form others.
+        </p>
+      </div>
     </section>
     
     <Section id="skills">
-        <h3> My Skills</h3>
+        <h3>Skills</h3>
         <p>I know the basics of HTML, CSS, and I am currenlty learning JavaScript.</p>
    </Section>
 
-    <section id="projects">
-      <h4>My Projects</h4>
-      <ul>
-        <li>
-          <a href="https://github.com/phill-star/Challenge-2">
-          <img src="assets/images/IMG_1216.jpeg" alt=""></a>
-          <a href="file:///C:/Users/phila/OneDrive/Desktop/chellange/index.html">
-          <img src="assets/images/IMG_1217.jpeg" alt=""></a>
-        </li>
-      </ul>
-      <p>Description of project 1.</p>
+    <sectcion id="projects">
+      <h4>Projects</h4>
+      <div class="centered">
+        <a href="https://github.com/phill-star/Challenge-2">
+        <img src="assets/images/IMG_1216.jpeg" alt="my github page" class="float-center" /></a>
+        <a href="file://C:/Users/phila/OneDrive/Desktop/chellange/index.html">
+        <img src="assets/images/IMG_1217.jpeg" alt="screenshot of horiseon" class="float-center" /></a>
+      </div>
+      <p></p>
     </section>
 
     <section id="contact">
     <h5>Contact Me</h5>
-         <div>
-            <label for="name">Name: Mohamed Hussein</label> <br>
-            <label for="email">Email: Philadelphia536@yahoo.com</label><br>
-            <label for="message">Message: I looked forward to meeting you and you thank you for visiting my portfolio</label>
-          </div>
-    </section>
+     <address>
+      <a href="tel:+1123456789">123.456.789</a> <br>
+      <a href="mailto:philadelphia536@yahoo.com"> Send email</a>Email:Philadelphia536@yahoo.com</a><br>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      </address>
+            
+    </section> 
 
     <footer>
-      <p>&copy; 2023 Mohamed Hussein</p>
-    </footer>
+     <p>&copy; 2023 Mohamed Hussein</p>
+     </footer> 
   </body>
 </html>
