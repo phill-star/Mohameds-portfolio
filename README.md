@@ -1,9 +1,16 @@
 # Mohameds-portfolio
-this project is intended to showcase my work.
+This project is intended to showcase my work. To make  first imperssion.
 
-it was designed to for data sharing my project and for hiring purpose 
+It was designed for data sharing my project and for hiring purpose .
+
+To hightlight my career objectives and goals. 
+
+this website was intended To build my professional brand.
+
+To increase my visibillity online to potential employer.
+
+The images on the page contains links to past porjects and soical media contacts.
 
 ![linkto the deployed page] https://phill-star.github.io/Mohameds-portfolio/
-
 
 ![Web capture_27-4-2023_133154_](https://user-images.githubusercontent.com/130422301/234976009-e923cddf-90f9-4a93-bb07-339ab8d05ca6.jpg)
