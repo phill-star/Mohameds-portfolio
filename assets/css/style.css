@@ -1,97 +1,96 @@
+/*here you can change the background color on the page*/
+body {
+  background: radial-gradient(
+    ellipse at center,
+    #fffeea 0%,
+    #fffeea 25%,
+    #6fa2a4 100%
+  );
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
-  body {
-    background: radial-gradient(
-      ellipse at center,
-      #fffeea 0%,
-      #fffeea 25%,
-      #6fa2a4 100%
-     );
-     font-family: Arial, sans-serif;
-	   margin: 0;
-  }
+header {
+  font-weight: 100;
+  font-style: italic;
+  color: #121111;
+  padding: 10px;
+} 
 
-  header {
-    font-weight: 100;
-    font-style: italic;
-	  color: #070707;
-	  padding: 10px;
-  }
+/*here you can style the nav*/
+nav ul {
+  text-align: right;
+  list-style: none;
+  margin: 50px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(94, 4, 135);
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.flex {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+/*here we can change the value of the social media/float-center to style the position */
+.social-media {
+  height: 60px;
+  border-radius: 20px;
+  margin: 5px auto 0px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.float-center {
+  border-radius: 10px;
+  margin: 5px auto 0px;
+  max-width: 100%;
+  height: 100px;
+  justify-content: center;
   
-  nav ul {
-    text-align:right;
-	  list-style: none;
-	  margin: 50px;
-	  padding: 0;
-  }
-  
-  nav li {
-	  display: inline-block;
-	  margin-right: 20px;
-    position:relative;
-  }
+}
+/*here we can position the header and style it*/
+h1,h2,h3,h4 {
+  text-align: center;
+  margin: 50px;
+}
 
-  li {
-    list-style-type:none;
-    text-align:center;
-  }
-
-  .float-center {  
-    border-radius: 20px;
-    display:in;
-    margin: 5px auto 0px;
-    max-width: 20%;
-    display: flex;
-    justify-content: center;
-    
-   }
-
-  nav a {
-	  color: rgb(94, 4, 135);
-	  text-decoration:underline;
-    font-style: italic;
-
-  }
-
-   section {
-	padding: 30px;
-   }
-
-  h1, h2, h3, h4 {
-    text-align: center;
-  }
-  
-  h1 {
-    text-shadow: 1px 1px 0 rgb(35, 182, 182), 
-       2px 2px 0 rgb(129, 189, 201);
- } 
-
-  h5 {
-    margin: 3px;
-    font-size: 20px;
-    font-style: italic;
-  }
-
-  p {
-    text-align: center;
-    
-  }
-  
-  img {
+h5 {
+  margin: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+/*here we can change the value of the image to our desire to style it*/
+img {
   border-radius: 200px;
   display: block;
-	margin: 0 auto 10px;
-	max-width: 20%; 
- }
+  margin: 10px auto 10px;
+  max-width: 20%;
+}
+/*here we can style the text for email and phone number, social media and footer contant*/
+form textarea {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 
-  form, form textarea {
-    font-style: italic;
-    font-size: 20px;
-	  margin-bottom: 10px;
-  }
-  
-  footer {       
-    text-align: center;
-    font-style: italic;
-    font-size: 14px;
-	  color:black;
- } 
+footer {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+}
