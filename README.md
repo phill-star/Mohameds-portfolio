@@ -13,4 +13,6 @@ The images on the page contains links to past porjects and soical media contacts
 
 ![linkto the deployed page] https://phill-star.github.io/Mohameds-portfolio/
 
-![Web capture_27-4-2023_133154_](https://user-images.githubusercontent.com/130422301/234976009-e923cddf-90f9-4a93-bb07-339ab8d05ca6.jpg)
+![Web capture_27-4-2023_133154_](https://user-images.githubusercontent.com/130422301/234997142-1ea0933d-cc5f-4028-bd56-01ae772fb966.jpg)
+
+
