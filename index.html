@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Moahmed Hussein portfolio</title>
+<head>
+  <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Moahmed Hussein Portfolio</title>
+    <header>
+          <!--this section contain navigation to each point-->
+        <h1>MH<span class="seo">Portfo</span>lio</h1>
+        <nav class="mainMenu">
+            <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#projects">My Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+              <li><a href="./assets/files/Resume.PDF" download>Download Resume</a> 
+            </ul>
+        </nav>
+    </header>
 </head>
   <body>
-    <header>
-      <h1> Mohamed's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">My Projects</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="hero">
+      <h1>Hi I'm Mohamed</h1>
+    </div>
+   
 
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="./assets/images/IMG_1215.jpg" alt="My Photo">
-      <p>Hi, my name is Mohamed hussein and I am currenlty in the process of becoming web developer. <br>
-        I look forward to developing my skill, new chellanges and learning form others.
-      </p>
-    </section>
-    
-    <Section id="skills">
-        <h3> My Skills</h3>
-        <p>I know the basics of HTML, CSS, and I am currenlty learning JavaScript.</p>
-   </Section>
+    <div class="content">
+       <!--here we can change the value to edit the name and portfolio photo-->
+      <div id="about" class="about">
+          <img src="./assets/images/IMG_1215.jpg" alt="about image" class="float-left" />
+          <h2>About</h2>
+          <p>
+            I am currently in the process of becoming a web developer.
+          I enjoy the technical process web development and enjoy the challenge that comes with it. 
+          I look forward to learning from others as well as polishing my skills. 
+          I enjoy collaborating with the others to improve productivity rate and to brainstorm ideas. 
+          I enjoy team setting, working in tandem to accomplish our goal and build learning experience with them.</p>
 
-    <section id="projects">
-      <h4>My Projects</h4>
-      <ul>
-        <li>
-          <a href="https://github.com/phill-star/Challenge-2">
-          <img src="assets/images/IMG_1216.jpeg" alt=""></a>
-          <a href="file:///C:/Users/phila/OneDrive/Desktop/chellange/index.html">
-          <img src="assets/images/IMG_1217.jpeg" alt=""></a>
-        </li>
-      </ul>
-      <p>Description of project 1.</p>
-    </section>
-
-    <section id="contact">
-    <h5>Contact Me</h5>
-         <div>
-            <label for="name">Name: Mohamed Hussein</label> <br>
-            <label for="email">Email: Philadelphia536@yahoo.com</label><br>
-            <label for="message">Message: I looked forward to meeting you and you thank you for visiting my portfolio</label>
-          </div>
-    </section>
-
-    <footer>
-      <p>&copy; 2023 Mohamed Hussein</p>
-    </footer>
+          </p>
+      </div>
+      <div id="skills" class="skills">
+         <!--this section contain my ability-->
+          <img class="float-right" />
+          <h2>Skills</h2>
+          <p>
+            I have a good understanding of the HTML and CSS part of Web developing. 
+        I can structure a website using the HTML five template and a blank CSS 
+        I'm currently learning JavaScript and look forward to implementing those skills into my web developing career..
+          </p>
+      </div>
+      <div id="projects" class="projects">
+        <!--this section includes image and link to the deployed project for the site and GitHub code-->
+          <h2>Projects</h2>
+          <a href="https://github.com/phill-star/Challenge-2"><img src="./assets/images/IMG_1216.jpeg" alt="projects" class="float-left" ></a>
+          <a href="https://phill-star.github.io/Challenge-2/"><img src="./assets/images/IMG_1217.jpeg" alt="projects" class="float-left" ></a>
+      
+      </div>
+      <div id="contact" class="contact">
+          <!--my contact information-->
+        <img class="float-right" />
+        <form id="contact" action="mailto:test@wilr.com" onsubmit="this.submit(); this.reset(); return false;" method="post" enctype="text/plain">
+            <h1 style="color: black;">Contact Me</h1>
+            <input id="fname" placeholder="Your name.." type="text" tabindex="1" required autofocus>
+            <input id="email" placeholder="Your email.." type="text" tabindex="2" required>
+            <textarea id="message" name="message" placeholder="Write your message here.." tabindex="3" ></textarea>
+            <button type="submit" onclick="showConfirmation()">Submit</button>
+        </form>
+     
+    </div>
+  </div>
+  <div class="footer">
+    <h2>Mohamed Hussein</h2>
+      <!-- Add font awesome icons -->
+      <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="https://twitter.com" class="fa fa-twitter"></a>
+      <a href="https://github.com/phill-star" class="fa fa-github"></a>
+      <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+    <p>
+        &copy; 2023 Mohamed Hussein
+    </p>
+</div>
   </body>
 </html>
