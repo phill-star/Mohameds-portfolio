@@ -13,5 +13,6 @@ The images on the page contains links to past porjects and soical media contacts
 
 [Moahmed Hussein Portfolio (phill-star.github.io)](https://phill-star.github.io/Mohameds-portfolio/)
 
-![Web capture_30-4-2023_0491_](https://user-images.githubusercontent.com/130422301/235341773-ae015818-9c34-4e48-a7f5-386f601b7509.jpg)
 
+
+![Web capture_1-5-2023_182958_phill-star github io](https://user-images.githubusercontent.com/130422301/235554721-ea6752e6-b4cf-41c9-b4e1-a53185c96032.jpeg)
